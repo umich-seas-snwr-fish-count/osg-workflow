@@ -1,0 +1,11 @@
+
+##  Scripts left to write
+
+Need a script on GL to compare the .aris files on GL to the .aris files
+in OSiRIS for completeness.
+
+Need a script on GL to compare the .aris files on GL to .mp4 file in
+OSiRIS for completeness.
+
+Need a script on GL to copy .mp4 files from OSiRIS to GL, preferably
+skipping those that already exist.
