@@ -7,21 +7,22 @@ if [ $# -ne 2 ] ; then
     exit 1
 fi
 
-echo $1 | egrep '[0-9][0-9]'
+echo $1 | egrep '[0-9][0-9]' > /dev/null
 rc=$?
 if [ $rc -eq 0 ] ; then
     export MO=$1
 else
-    echo "The month, $MO, is not a two-digit number"
+    echo "The month, $1, is not a two-digit number"
     exit 1
 fi
 
-echo YR | egrep '[0-9][0-9][0-9][0-9]'
+echo $2 | egrep '[0-9][0-9][0-9][0-9]'
 rc=$?
+echo "rc : $rc"
 if [ $rc -eq 0 ] ; then
     export YR=$2
 else
-    echo "The year, $YR, is not a four-digit number"
+    echo "The year, $2, is not a four-digit number"
     exit 1
 fi
 

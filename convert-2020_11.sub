@@ -1,0 +1,31 @@
+# These two lines set up the singularity image
+Requirements = HAS_SINGULARITY == True && OSG_HOST_KERNEL_VERSION >= 31000 && !regexp("UTAH|UConn", GLIDEIN_Site)
++SingularityImage = "/cvmfs/singularity.opensciencegrid.org/arburks/aris-convert:latest"
+
+# Not necessary if you ran `connect project` or you have only one project
++ProjectName = "osg.Michigan_Seelbach"
+
+# This is the log from Condor about your job
+log    = logs/2020_11/aris-$(Cluster).$(Process).log
+
+# These are where the standard output and standard error messages go
+# Usually you want them in the same file so you can see the errors in context
+output = output/2020_11/aris-$(Cluster).$(Process).out
+error  = output/2020_11/aris-$(Cluster).$(Process).out
+
+# The program to run
+executable = convert.sh
+arguments = $(aris)
+
+# Must copy over the s3cmd configuration file
+# What needs to be copied to the compute node
+transfer_input_files  = /home/justbennet/.s3cfg
+
+
+# What the compute nodes should have when they run
+request_cpus   = 4
+request_memory = 10GB
+request_disk   = 16GB
+
+# How many jobs should run
+queue aris from convert_2020_11.txt

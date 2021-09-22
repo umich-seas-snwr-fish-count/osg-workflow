@@ -6,12 +6,12 @@ Requirements = HAS_SINGULARITY == True && OSG_HOST_KERNEL_VERSION >= 31000 && !r
 +ProjectName = "osg.Michigan_Seelbach"
 
 # This is the log from Condor about your job
-log    = aris-$(Cluster).$(Process).log
+log    = logs/2020_03/aris-$(Cluster).$(Process).log
 
 # These are where the standard output and standard error messages go
 # Usually you want them in the same file so you can see the errors in context
-output = aris-$(Cluster).$(Process).out
-error  = aris-$(Cluster).$(Process).out
+output = output/2020_03/aris-$(Cluster).$(Process).out
+error  = output/2020_03/aris-$(Cluster).$(Process).out
 
 # The program to run
 executable = convert.sh
@@ -24,8 +24,8 @@ transfer_input_files  = /home/justbennet/.s3cfg
 
 # What the compute nodes should have when they run
 request_cpus   = 4
-request_memory = 8GB
+request_memory = 10GB
 request_disk   = 16GB
 
 # How many jobs should run
-queue aris from convert_2020_11.txt.long.rerun
+queue aris from convert_2020_03.txt
