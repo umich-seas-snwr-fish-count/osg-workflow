@@ -10,12 +10,12 @@ refuge.
 * The hard drive is delivered to UM Ann Arbor campus, where it is copied
   to the Great Lakes cluster `/scratch/seelbach_root/seelbach1/shared_data`
   folder using Globus from a computer in SEAS.
-* The program to check for corrupted `.aris` file should be run to identify
-  any `.aris` files that need to be repaired with `ARIScope`.  Corrupted
-  files should be repaired and copied to Great Lakes priro to the next
-  step.
 * Raw ARIS data is copied from the Great Lakes cluster to the USGS Black
   Pearl device.
+* The program to check for corrupted `.aris` file should be run on Great Lakes
+  to identify any `.aris` files that need to be repaired with `ARIScope`.
+  Corrupted files should be repaired and copied to Great Lakes prior to
+  the next step.  See [URL] for how to obtain, install, and run `arisCheck.py`.
 * Raw ARIS data is copied from the Black Pearl device to another disk array
   at the USGS HPC center in Sioux Falls, SD.
 * Processing at Open Science Grid (OSG)
