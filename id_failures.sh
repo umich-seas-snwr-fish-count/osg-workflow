@@ -21,12 +21,16 @@ else
 fi
 
 # Check for the s3cmd program and exit if unavailable
-which s3cmd 2>/dev/null
+which s3cmd >/dev/null 2>&1
+
 rc=$?
 if [ $rc -ne 0 ] ; then
     echo "s3cmd command not found.  You may need to run this script from singularity"
     echo "Exiting."
     exit 1
+else
+    echo
+    echo "Running $0 $1"
 fi
 
 echo

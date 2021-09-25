@@ -5,13 +5,16 @@ Requirements = HAS_SINGULARITY == True && OSG_HOST_KERNEL_VERSION >= 31000 && !r
 # Not necessary if you ran `connect project` or you have only one project
 +ProjectName = "osg.Michigan_Seelbach"
 
+# Display name for the batch
+JobBatchName = 2020_05_run
+
 # This is the log from Condor about your job
 log    = logs/2020_05/aris-$(Cluster).$(Process).log
 
 # These are where the standard output and standard error messages go
 # Usually you want them in the same file so you can see the errors in context
-output = ouptut/2020_05/aris-$(Cluster).$(Process).out
-error  = ouptut/2020_05/aris-$(Cluster).$(Process).out
+output = output/2020_05/aris-$(Cluster).$(Process).out
+error  = output/2020_05/aris-$(Cluster).$(Process).out
 
 # The program to run
 executable = convert.sh

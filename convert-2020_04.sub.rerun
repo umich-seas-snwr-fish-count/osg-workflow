@@ -6,15 +6,15 @@ Requirements = HAS_SINGULARITY == True && OSG_HOST_KERNEL_VERSION >= 31000 && !r
 +ProjectName = "osg.Michigan_Seelbach"
 
 # Display name for the batch
-JobBatchName = 2020_09_run
+JobBatchName = 2020_04_rerun
 
 # This is the log from Condor about your job
-log    = logs/2020_09/aris-$(Cluster).$(Process).log
+log    = logs/2020_04/aris-$(Cluster).$(Process).log
 
 # These are where the standard output and standard error messages go
 # Usually you want them in the same file so you can see the errors in context
-output = output/2020_09/aris-$(Cluster).$(Process).out
-error  = output/2020_09/aris-$(Cluster).$(Process).out
+output = output/2020_04/aris-$(Cluster).$(Process).out
+error  = output/2020_04/aris-$(Cluster).$(Process).out
 
 # The program to run
 executable = convert.sh
@@ -31,4 +31,4 @@ request_memory = 10GB
 request_disk   = 16GB
 
 # How many jobs should run
-queue aris from convert_2020_09.txt
+queue aris from convert_2020_04.txt.rerun

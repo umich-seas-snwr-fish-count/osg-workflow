@@ -6,7 +6,7 @@ Requirements = HAS_SINGULARITY == True && OSG_HOST_KERNEL_VERSION >= 31000 && !r
 +ProjectName = "osg.Michigan_Seelbach"
 
 # Display name for the batch
-JobBatchName = 2020_09_run
+JobBatchName = 2020_09_rerun
 
 # This is the log from Condor about your job
 log    = logs/2020_09/aris-$(Cluster).$(Process).log
@@ -31,4 +31,4 @@ request_memory = 10GB
 request_disk   = 16GB
 
 # How many jobs should run
-queue aris from convert_2020_09.txt
+queue aris from convert_2020_09.txt.rerun
