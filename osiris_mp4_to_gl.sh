@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#run this from great lakes
+
 if [ $# -ne 2 ] ; then
     echo -e "\n$0 takes two arguments, two-digit month and four-digit year; e.g."
     echo -e "Example: $0 $0 11 2020\n"
