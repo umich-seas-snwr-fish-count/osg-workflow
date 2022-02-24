@@ -1,7 +1,5 @@
 s3://testcou-seas-sonar-images/ARIS_2021_11_02/2021-11-02_100000.aris
-(2).aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_02/2021-11-02_112700.aris
-(2).aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_02/2021-11-02_120200.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_02/2021-11-02_130222.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_02/2021-11-02_140244.aris
@@ -27,7 +25,6 @@ s3://testcou-seas-sonar-images/ARIS_2021_11_03/2021-11-03_090209.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_03/2021-11-03_100231.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_03/2021-11-03_110235.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_03/2021-11-03_120213.aris
-s3://testcou-seas-sonar-images/ARIS_2021_11_03/2021-11-03_130210.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_03/2021-11-03_130211.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_03/2021-11-03_140231.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_03/2021-11-03_150241.aris
@@ -37,7 +34,6 @@ s3://testcou-seas-sonar-images/ARIS_2021_11_03/2021-11-03_180245.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_03/2021-11-03_190300.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_03/2021-11-03_200233.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_03/2021-11-03_210213.aris
-(2).aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_03/2021-11-03_220241.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_03/2021-11-03_230255.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_04/2021-11-04_000251.aris
@@ -50,7 +46,6 @@ s3://testcou-seas-sonar-images/ARIS_2021_11_04/2021-11-04_060207.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_04/2021-11-04_070243.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_04/2021-11-04_080221.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_04/2021-11-04_090306.aris
-s3://testcou-seas-sonar-images/ARIS_2021_11_04/2021-11-04_100231.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_04/2021-11-04_100232.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_04/2021-11-04_110237.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_04/2021-11-04_113603.aris
@@ -115,7 +110,6 @@ s3://testcou-seas-sonar-images/ARIS_2021_11_06/2021-11-06_210000.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_06/2021-11-06_220000.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_06/2021-11-06_230000.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_07/2021-11-07_000000.aris
-(2).aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_07/2021-11-07_010000.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_07/2021-11-07_030000.aris
 s3://testcou-seas-sonar-images/ARIS_2021_11_07/2021-11-07_040000.aris
